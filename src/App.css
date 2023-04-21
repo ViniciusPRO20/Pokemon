@@ -1,5 +1,10 @@
 body {
   text-align: center;
-  background: antiquewhite;
+  background: linear-gradient(to bottom, rgb(0, 110, 206), rgb(255, 255, 255));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  margin-top: 10vh;
 }
 

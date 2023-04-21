@@ -6,7 +6,7 @@
 }
 
 .types li {
-  color: #fff;
+  color: #000000;
   border: 1px solid #000;
   font-size: 20px;
   border-radius: 5px;
@@ -15,7 +15,7 @@
   list-style: none;
   margin: 0 10px;
   width: 25%;
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 
@@ -29,14 +29,14 @@
 input {
   background: none;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #ffffff;
   outline: none;
-  color: #000;
+  color: #fff;
   font-size: 20px;
 }
 
 button {
-  background: #00bb22;
+  background: #006671;
   color: #fff;
   padding: 0 15px;
   border: none;
