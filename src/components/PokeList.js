@@ -18,10 +18,10 @@ function PokeSearch() {
 
   return (
     <div>
-      <input placeholder="Pesquise o Id ou Nome" type="text" value={query} onChange={event => setQuery(event.target.value)} />
+      <input type="text" value={query} onChange={event => setQuery(event.target.value)} />
       <button onClick={handleSearch}>Buscar</button>
       {pokemon && (
-        <div>
+        <div className="pokemons">
           <h2>{pokemon.name}</h2>
           <ul className="pokemon">
             <img src={pokemon.sprites.front_default} alt={pokemon.name} />

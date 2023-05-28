@@ -1,9 +1,11 @@
 body {
   text-align: center;
-  background: linear-gradient(to bottom, rgb(0, 110, 206), rgb(255, 255, 255));
+  background: url("../public/images/bg.jpeg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: center center;
+  background-position: fixed;
+  background-size: cover;
+  height: 90vh;
   color: #fff;
   margin-top: 10vh;
 }
