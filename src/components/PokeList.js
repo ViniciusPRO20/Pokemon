@@ -18,7 +18,7 @@ function PokeSearch() {
 
   return (
     <div className="box">
-      <input type="text" value={query} onChange={event => setQuery(event.target.value)} />
+      <input placeholder="Ex. Charizard" type="text" value={query} onChange={event => setQuery(event.target.value)} />
       <button onClick={handleSearch}>Buscar</button>
       {pokemon && (
         <div className="pokemons">
