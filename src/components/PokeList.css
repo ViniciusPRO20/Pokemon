@@ -10,12 +10,12 @@
   font-weight: bold;
   border: 2px solid #000;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   text-align: center;
   list-style: none;
   margin: 0 10px;
-  width: 25%;
+  width: auto;
   background: transparent;
   text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ input {
 }
 
 button {
-  background: #006671;
+  background: #000;
   color: #fff;
   padding: 0 15px;
   border: none;
@@ -53,10 +53,6 @@ button {
   margin-left: 15px;
 }
 
-button:hover {
-  background-color: #003b41;
-}
-
 img {
   height: 200px;
   width: 200px;
@@ -68,6 +64,5 @@ img {
   background: red;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-  overflow: auto;
   padding: 1rem;
 }
