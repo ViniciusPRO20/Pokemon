@@ -5,6 +5,7 @@ body {
   background-position: center center;
   background-position: fixed;
   background-size: cover;
+  height: 90vh;
   color: #fff;
 }
 
