@@ -63,3 +63,13 @@ img {
   height: 200px;
   width: 200px;
 }
+
+.box {
+  width: 400px;
+  height: 440px;
+  background: red;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  overflow: auto;
+  padding: 1rem;
+}
