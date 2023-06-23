@@ -4,3 +4,13 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  text-align: center;
+  background: url("../public/images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: fixed;
+  background-size: cover;
+  color: #fff;
+}

@@ -1,14 +1,3 @@
-body {
-  text-align: center;
-  background: url("../public/images/bg.jpeg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-position: fixed;
-  background-size: cover;
-  height: 90vh;
-  color: #fff;
-}
-
 .App {
   align-items: center;
   justify-content: center;
