@@ -3,8 +3,8 @@
 }
 
 .center {
-  align-items: center;
+  display: flex;
   justify-content: center;
-  flex-direction: column;
-  height: 90vh;
+  align-items: center;
+  height: 100vh;
 }
