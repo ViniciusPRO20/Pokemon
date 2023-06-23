@@ -7,7 +7,9 @@ function App() {
       <h1>Pokémons</h1>
       <h2>Digite o id ou o nome do pokémon</h2>
       <br />
-      <PokeList />
+      <div className="center">
+        <PokeList />
+      </div>
     </div>
   );
 }
