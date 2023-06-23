@@ -5,9 +5,7 @@ body {
   background-position: center center;
   background-position: fixed;
   background-size: cover;
-  height: 90vh;
   color: #fff;
-  margin-top: 10vh;
 }
 
 .App {
