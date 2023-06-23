@@ -10,3 +10,9 @@ body {
   margin-top: 10vh;
 }
 
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}

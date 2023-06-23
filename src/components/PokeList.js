@@ -17,26 +17,23 @@ function PokeSearch() {
   };
 
   return (
-    <div className="pokedex">
-      <div className="box">
-        <input type="text" value={query} onChange={event => setQuery(event.target.value)} />
-        <button onClick={handleSearch}>Buscar</button>
-        {pokemon && (
-          <div className="pokemons">
-            <h2>{pokemon.name}</h2>
-            <ul className="pokemon">
-              <img src={pokemon.sprites.front_default} alt={pokemon.name} />
-            </ul>
-            <ul className='types'>
-              {pokemon.types.map(type => (
-                <li key={type.type.name}>{type.type.name}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </div>
+    <div className="box">
+      <input type="text" value={query} onChange={event => setQuery(event.target.value)} />
+      <button onClick={handleSearch}>Buscar</button>
+      {pokemon && (
+        <div className="pokemons">
+          <h2>{pokemon.name}</h2>
+          <ul className="pokemon">
+            <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+          </ul>
+          <ul className='types'>
+            {pokemon.types.map(type => (
+              <li key={type.type.name}>{type.type.name}</li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
-
   );
 }
 
